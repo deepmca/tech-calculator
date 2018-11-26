@@ -4,7 +4,6 @@ import com.tech.javacalculator.Calculator;
 
 public class CalculatorImpl implements Calculator {
 
-
     @Override
     public Double calculateSimpleMode(Double number1, Double number2, String operator) {
 
@@ -29,9 +28,7 @@ public class CalculatorImpl implements Calculator {
                 break;
 
         }
-
         return result ;
-
     }
 
 }

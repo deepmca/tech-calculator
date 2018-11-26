@@ -5,7 +5,7 @@ import com.tech.javacalculator.Calculator;
 public class CalculatorImpl implements Calculator {
 
     @Override
-    public Double calculateSimpleMode(Double number1, Double number2, String operator) {
+    public Double simpleModeCalulation(Double number1, Double number2, String operator)  {
 
         double result = Double.NaN ;
 

@@ -1,5 +1,3 @@
-# tech-calculator
-
 # Calculator
 Command Line Java Calculator
 

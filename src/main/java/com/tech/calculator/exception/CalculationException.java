@@ -1,8 +1,13 @@
-package com.tech.javacalculator;
+package com.tech.calculator.exception;
 
 public class CalculationException extends Exception {
 
-    private String message = null;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 4603373311829428814L;
+	
+	private String message = null;
 
     public CalculationException() {
         super();

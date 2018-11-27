@@ -11,15 +11,18 @@ public class CalculatorImpl implements Calculator {
 
 	private Map<String, String> operations = null;
 
+
 	/**
 	 * constructor.
 	 */
 	public CalculatorImpl() {
 		this.operations = new HashMap<>();
-		this.operations.put("+", "com.tect.calculator.operation.impl.AddOperation");
-		this.operations.put("-", "com.tect.calculator.operation.impl.SubOperation");
-		this.operations.put("*", "com.tect.calculator.operation.impl.MulOperation");
-		this.operations.put("/", "com.tect.calculator.operation.impl.DivOperation");
+		this.operations.put("+", "com.tech.calculator.operation.impl.AddOperation");
+		this.operations.put("-", "com.tech.calculator.operation.impl.SubOperation");
+		this.operations.put("*", "com.tech.calculator.operation.impl.MulOperation");
+		this.operations.put("/", "com.tech.calculator.operation.impl.DivOperation");
+
+		//TODO Add classes for scientific operations in next iteration
 	}
 
 	@Override
@@ -36,6 +39,7 @@ public class CalculatorImpl implements Calculator {
 		}
 		return false;
 	}
+
 
 	private Operation getOperationClass(String operator) throws CalculationException {
 		try {

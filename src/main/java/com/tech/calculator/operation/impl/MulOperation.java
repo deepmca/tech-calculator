@@ -1,4 +1,4 @@
-package com.tect.calculator.operation.impl;
+package com.tech.calculator.operation.impl;
 
 import com.tech.calculator.operations.Operation;
 

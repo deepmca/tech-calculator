@@ -10,6 +10,6 @@ import com.tech.calculator.operations.Operation;
 public class MulOperation implements Operation {
 
 	public Double operate(Double firstNumber, Double secondNumber) {
-		return firstNumber * firstNumber;
+		return firstNumber * secondNumber;
 	}
 }

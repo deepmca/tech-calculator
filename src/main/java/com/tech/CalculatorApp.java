@@ -5,7 +5,7 @@ import com.tech.calculator.exception.CalculationException;
 import com.tech.calculator.impl.CalculatorImpl;
 
 /**
- * Calculator Application
+ * Main class for calculator application
  *
  */
 public class CalculatorApp

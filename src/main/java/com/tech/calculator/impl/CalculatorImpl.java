@@ -11,6 +11,9 @@ public class CalculatorImpl implements Calculator {
 
 	private Map<String, String> operations = null;
 
+	/**
+	 * constructor.
+	 */
 	public CalculatorImpl() {
 		this.operations = new HashMap<>();
 		this.operations.put("+", "com.tect.calculator.operation.impl.AddOperation");
